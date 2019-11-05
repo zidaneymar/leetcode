@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "dialog",
+            "request": "attach",
+            "name": "Attach to Dialog",
+            "debugServer": 4712
+        },
+        {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
